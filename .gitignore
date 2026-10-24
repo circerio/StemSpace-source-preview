@@ -1,0 +1,11 @@
+/build/
+/.vs/
+*.user
+*.suo
+*.dll
+*.exe
+*.lib
+*.obj
+*.pdb
+*.onnx
+*.fb2k-component

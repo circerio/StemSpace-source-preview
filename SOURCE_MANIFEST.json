@@ -1,0 +1,166 @@
+{
+  "release": "v0.1.0-beta.2-source-preview",
+  "scope": "DSP source only; no binaries/model; exact source and configuration bytes retained",
+  "files": [
+    {
+      "path": "build-support/StemSpace.Dependencies.props",
+      "bytes": 1650,
+      "sha256": "CA331572637B8D2385ADEBB739DCDA661B09C746618B97817B79DCCF2C6FCCFB",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Existing project MIT scope; maintainer explicitly confirmed DSP/meter publisher/shim rights and disclosed references on 2026-10-24",
+      "byte_exact": true
+    },
+    {
+      "path": "src/foo_dsp_stemgen_spatial/PCH.cpp",
+      "bytes": 189,
+      "sha256": "82F934B91847A60CD36A555FAE51556BC75563753FACF2BFD6A79F51D36F0734",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Project MIT; foobar2000 SDK interface/template notice retained",
+      "byte_exact": true
+    },
+    {
+      "path": "src/foo_dsp_stemgen_spatial/component_ids.h",
+      "bytes": 145,
+      "sha256": "E6914BB63B06863C9B9F10056D6C0C22E4E56886228776143D022AFA5F4041FD",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Existing project MIT scope; maintainer explicitly confirmed DSP/meter publisher/shim rights and disclosed references on 2026-10-24",
+      "byte_exact": true
+    },
+    {
+      "path": "src/foo_dsp_stemgen_spatial/dsp_identity.cpp",
+      "bytes": 29936,
+      "sha256": "7FF40342944C9AC3140866DD0AB7B7B64647D8844BF5A5F08A37BC7FF2D9CC64",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Existing project MIT scope; maintainer explicitly confirmed DSP/meter publisher/shim rights and disclosed references on 2026-10-24",
+      "byte_exact": true
+    },
+    {
+      "path": "src/foo_dsp_stemgen_spatial/foo_dsp_stemgen_spatial.vcxproj",
+      "bytes": 2996,
+      "sha256": "82AB3ACA6C00DA95E1C96BDC6C024481E4BD8762E824B98C7E042DD5E168DDE0",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Existing project MIT scope; maintainer explicitly confirmed DSP/meter publisher/shim rights and disclosed references on 2026-10-24",
+      "byte_exact": true
+    },
+    {
+      "path": "src/foo_dsp_stemgen_spatial/main.cpp",
+      "bytes": 570,
+      "sha256": "2DB8D3EA2D222C794F66EE30F1DE6B51E201B4D13B8A32F01EA7FD2AD9860C28",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Existing project MIT scope; maintainer explicitly confirmed DSP/meter publisher/shim rights and disclosed references on 2026-10-24",
+      "byte_exact": true
+    },
+    {
+      "path": "src/foo_dsp_stemgen_spatial/spatial_meter.h",
+      "bytes": 12216,
+      "sha256": "3C483E47AECE03FCB4F0B5201344BB7BB30515493B783BBF9F605352CCEFF51C",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Existing project MIT scope; maintainer explicitly confirmed DSP/meter publisher/shim rights and disclosed references on 2026-10-24",
+      "byte_exact": true
+    },
+    {
+      "path": "src/foo_dsp_stemgen_spatial/stdafx.h",
+      "bytes": 53,
+      "sha256": "09AF9C02FCBFA024C357EA13CDF9DE7D93BFC1DD0E6454FBE59B9D5E26AA7835",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Project MIT; foobar2000 SDK interface/template notice retained",
+      "byte_exact": true
+    },
+    {
+      "path": "src/stemgen_core/OnnxRuntime.cpp",
+      "bytes": 49070,
+      "sha256": "6955A4B846C7A34C25A8441578865CF6141599DF68DB47CD67DCF200D3E16D2F",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "StemgenRT MIT (Axel Delafosse); local adaptations covered by project MIT where applicable",
+      "byte_exact": true
+    },
+    {
+      "path": "src/stemgen_core/StemgenRT/Constants.h",
+      "bytes": 10945,
+      "sha256": "0511568C64E222E0C06BA39427AEA2764A497FDAFEEAC4AD8C47756ACD755F18",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "StemgenRT MIT (Axel Delafosse); local adaptations covered by project MIT where applicable",
+      "byte_exact": true
+    },
+    {
+      "path": "src/stemgen_core/StemgenRT/OnnxRuntime.h",
+      "bytes": 6931,
+      "sha256": "046E2AD21712AC44BB36999F47DBAE327E7B2637A7A782E231CD9D1B0A59BBB9",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "StemgenRT MIT (Axel Delafosse); local adaptations covered by project MIT where applicable",
+      "byte_exact": true
+    },
+    {
+      "path": "src/stemgen_core/StemgenRT/QualifiedModelContract.h",
+      "bytes": 16749,
+      "sha256": "3796325F42BEC9B8ADFBB6F28532456551BC0557ED79AAE1E1280C2EB92F57A2",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "StemgenRT MIT (Axel Delafosse); local adaptations covered by project MIT where applicable",
+      "byte_exact": true
+    },
+    {
+      "path": "src/stemgen_core/StemgenRT/StreamingSampleRateAdapter.h",
+      "bytes": 6666,
+      "sha256": "B046266C69B0DCED43A7954C55E42293D048799487DF42EDA2EB506E39FDCF46",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "StemgenRT MIT (Axel Delafosse); local adaptations covered by project MIT where applicable",
+      "byte_exact": true
+    },
+    {
+      "path": "src/stemgen_core/StreamingSampleRateAdapter.cpp",
+      "bytes": 20065,
+      "sha256": "B0C275424F4BF8F9E51DDFB8C1652E8B26CBA1884D89B6104A52932EA7149EDD",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "StemgenRT MIT (Axel Delafosse); local adaptations covered by project MIT where applicable",
+      "byte_exact": true
+    },
+    {
+      "path": "src/stemgen_core/juce_core/juce_core.h",
+      "bytes": 3325,
+      "sha256": "21A74C41CB009C656C749B87A206999D1CA206C663A3F666D6EB449F36A79691",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Existing project MIT scope; maintainer explicitly confirmed DSP/meter publisher/shim rights and disclosed references on 2026-10-24",
+      "byte_exact": true
+    },
+    {
+      "path": "src/stemgen_core/juce_cryptography/juce_cryptography.h",
+      "bytes": 1708,
+      "sha256": "C263685A9B0AF6B2C54150498F0A2C6659469F46BA92D866FF3BAD623F54FE4B",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Existing project MIT scope; maintainer explicitly confirmed DSP/meter publisher/shim rights and disclosed references on 2026-10-24",
+      "byte_exact": true
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1065,
+      "sha256": "B9B3A38A3CF605C517E44A3BF8733194D5D78B2762F469790B39CBC69A89C416",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Existing project MIT scope; maintainer explicitly confirmed DSP/meter publisher/shim rights and disclosed references on 2026-10-24",
+      "byte_exact": true
+    },
+    {
+      "path": "third_party/licenses/ONNXRuntime-MIT.txt",
+      "bytes": 1094,
+      "sha256": "C250D6278F0B47A6439FB7592B08B58A55EB9F535AA49A1DB63211C3F982B674",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Unmodified third-party license text; retain original terms",
+      "byte_exact": true
+    },
+    {
+      "path": "third_party/licenses/StemgenRT-MIT.txt",
+      "bytes": 1092,
+      "sha256": "347D10DDBCF986C108ABD331D24DC01459D2596FD26C19C35D144476C62C7C5B",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Unmodified third-party license text; retain original terms",
+      "byte_exact": true
+    },
+    {
+      "path": "third_party/licenses/foobar2000-SDK.txt",
+      "bytes": 1441,
+      "sha256": "E1413FBD19AF042AE2C7E47D2D323471436CC3B601DFD5DD975986A58C9E7967",
+      "origin": "qualified beta.2 DSP source snapshot",
+      "rights": "Unmodified third-party license text; retain original terms",
+      "byte_exact": true
+    }
+  ]
+}

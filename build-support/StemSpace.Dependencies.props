@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Supply both roots as local MSBuild properties; no dependency projects are built here. -->
+  <PropertyGroup>
+    <StemSpacePfcLibrary>$(StemSpaceSdkRoot)\pfc\x64\Release\pfc.lib</StemSpacePfcLibrary>
+    <StemSpaceSdkLibrary>$(StemSpaceSdkRoot)\foobar2000\SDK\x64\Release\foobar2000_SDK.lib</StemSpaceSdkLibrary>
+    <StemSpaceClientLibrary>$(StemSpaceSdkRoot)\foobar2000\foobar2000_component_client\x64\Release\foobar2000_component_client.lib</StemSpaceClientLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Link>
+      <AdditionalOptions>/PDBALTPATH:%_PDB% %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <Target Name="CheckStemSpaceDependencies" BeforeTargets="PrepareForBuild">
+    <Error Condition="'$(Platform)' != 'x64'" Text="StemSpace supports Windows x64 only." />
+    <Error Condition="!Exists('$(StemSpaceSdkRoot)\foobar2000\SDK\foobar2000.h')" Text="Set StemSpaceSdkRoot to the external SDK-2026-10-01 root." />
+    <Error Condition="!Exists('$(StemSpacePfcLibrary)') Or !Exists('$(StemSpaceSdkLibrary)') Or !Exists('$(StemSpaceClientLibrary)')" Text="Provide reviewed prebuilt Release x64 SDK/pfc/component-client libraries; this project never builds or writes into the external SDK." />
+    <Error Condition="'$(StemSpaceNeedsOrt)' == 'true' And !Exists('$(StemSpaceOrtRoot)\include\onnxruntime_c_api.h')" Text="Set StemSpaceOrtRoot to the external qualified ONNX Runtime 1.26.0 package root." />
+  </Target>
+</Project>
